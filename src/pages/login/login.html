@@ -1,0 +1,39 @@
+<!--
+  Generated template for the LoginPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+</ion-header>
+
+<ion-content class="background">
+  <ion-card class="card">
+    <ion-card-header>
+      Login 
+    </ion-card-header>
+    <ion-card-content>
+      <ion-list no-lines>
+        <div class="spacer" style="height: 10px;"></div>
+        <ion-item>
+          <ion-input type="email" placeholder="Username" [(ngModel)]="credentials.email"></ion-input>
+          <div class="spacer" style="height: 10px;"></div>
+        </ion-item>
+        <ion-item>
+          <ion-input type="password" placeholder="Password" [(ngModel)]="credentials.password"></ion-input>
+          <div class="spacer" style="height: 10px;"></div>
+        </ion-item>
+        <a  (click)="passwordReset()">Forgot your login details?<b>Get help!</b></a>
+        <div class="spacer" style="height: 10px;"></div>
+        <button ion-button block outline  (click)="signin()">Log on</button>
+        <div class="spacer" style="height: 10px;"></div>
+        <p>OR</p>
+        <label  ion-bottom>Don't have an account? <a (click)="signUp()" style="cursor:pointer">Sign Up</a></label>
+        <div class="spacer" style="height: 10px;"></div>      
+      </ion-list>
+    </ion-card-content>
+  </ion-card>
+
+</ion-content>
+

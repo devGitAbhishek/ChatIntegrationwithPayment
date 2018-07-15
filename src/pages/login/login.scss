@@ -1,0 +1,77 @@
+page-login {
+
+  .background{
+      background-image: url('../assets/bg.jpg');
+  }
+
+  .scroll-content{
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content : center;
+    text-align: center;
+} 
+ion-card .card{
+    box-shadow: none;
+    background: rgba(0, 0, 0, 0.034) !important;
+    border-radius: 5px;
+}
+
+
+    a, p, ion-card-header .card-header{
+        color: rgba(2, 1, 1, 0.644) !important;
+    }
+    
+    .list > .item-block:first-child{
+        border: medium none;
+    }
+    
+    .item{
+        margin-bottom: 10px;
+        background: rgba(204, 199, 199, 0.397);
+        border: medium none;
+    
+        .text-input,{
+             color: rgb(15, 5, 5);
+        }
+    
+    input::-moz-placeholder{
+        color: #fff!important;
+    }
+    
+    
+    input::-moz-placeholder{
+        color: rgba(12, 1, 1, 0.418)!important;
+    }   
+    *:-moz-placeholder{
+        color: rgba(8, 1, 1, 0.692)!important;
+    }
+    *:-moz-placeholder{
+        color: #fff!important;
+    }
+    *:-ms-input-placeholder{
+        color: #fff!important;
+    }
+    *::-webkit-input-placeholder{
+        color: rgb(15, 3, 3)!important;
+    }
+    }
+    
+    .icon{
+        padding-right: 10px;
+    }
+    .bottom{
+        bottom: 0;
+    }
+    .input-cover{
+        position: static;
+    }
+  
+    .input-cover{
+        position: static;
+    }
+
+
+
+}
+
